@@ -14,9 +14,7 @@ labels:
       Thank you very much and hope to see you around these parts again soon 🤠🤖
   "status: needs official review":
     action: close
-    # You can specify times in human readable form
-    # using seconds, minutes, hours, days, weeks and years
-    delay: 15 minutes
+    delay: 30 seconds
     comment: "For new feature requests, please visit [our forum](https://forum.dawnlabs.io). Closing in $DELAY..."
 
 comments:
