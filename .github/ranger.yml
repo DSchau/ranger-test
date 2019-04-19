@@ -9,7 +9,7 @@ labels:
     action: close
     # You can specify times in human readable form
     # using seconds, minutes, hours, days, weeks and years
-    delay: 0
+    delay: 15 minutes
     comment: "For new feature requests, please visit [our forum](https://forum.dawnlabs.io). Closing in $DELAY..."
 comments:
   - action: label
