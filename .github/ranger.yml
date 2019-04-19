@@ -7,6 +7,6 @@ labels:
   "bot: merge when passing": merge
 comments:
   - action: label
-    pattern: /duplicate of \#[\d]+/i
+    pattern: /duplicate of \#?[\d]+/i
     labels:
       - "bot: duplicate"
