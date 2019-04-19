@@ -7,6 +7,10 @@ labels:
   "bot: merge when passing":
     action: merge
     delay: 0
+    comment: |
+      Woo hoo! All tests are passing and I see the label `bot: merge when passing`, so I'll take the liberty of getting this merged and deleting the branch.
+
+      Thank you very much and hope to see you around these parts again soon 🤠🤖
   "status: needs official review":
     action: close
     # You can specify times in human readable form
