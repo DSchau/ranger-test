@@ -10,7 +10,7 @@ labels:
 
       It's me, the helpful Ranger bot 🤠
 
-      It appears that this proposal is a duplicate of a existing. If this is indeed the case, this will be closed within $DELAY.
+      It appears that this proposal is a duplicate of an existing proposal. If this is indeed the case, this will be closed within $DELAY.
 
       If not -- please remove the label `bot: duplicate` and I'll leave this open.
 
