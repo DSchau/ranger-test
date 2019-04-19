@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:DSchau/ranger-test.git",
   "author": "Dustin Schau <dustinschau@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "echo \"Built\"",
+    "test": "echo \"Test\""
+  }
 }
