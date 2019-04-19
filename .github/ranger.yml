@@ -11,6 +11,7 @@ labels:
     # using seconds, minutes, hours, days, weeks and years
     delay: 0
     comment: "For new feature requests, please visit [our forum](https://forum.dawnlabs.io). Closing in $DELAY..."
+comments:
   - action: label
     pattern: /duplicate of \#?[\d]+/i
     labels:
