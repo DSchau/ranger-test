@@ -1,7 +1,9 @@
 merges:
   - action: delete_branch
 labels:
-  "bot: duplicate": close
+  "bot: duplicate":
+    action: close
+    delay: 0
   "bot: merge when passing": merge
 comments:
   - action: label
