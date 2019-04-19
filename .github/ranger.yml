@@ -7,7 +7,7 @@ labels:
   "bot: merge when passing": merge
   "status: needs reproduction":
     action: close
-    delay: "7 days"
+    delay: "1 minute"
     comment: """
 Hello!
 
