@@ -5,32 +5,48 @@ labels:
   "bot: duplicate":
     action: close
     delay: 15 minutes
+    comment: |
+      Hello!
+
+      It's me, the helpful Ranger bot 🤠
+
+      It appears that this proposal is a duplicate of a existing. If this is indeed the case, this will be closed within $DELAY.
+
+      If not -- please remove the label `bot: duplicate` and I'll leave this open.
+
+      01010100011010000110000101101110011010110010000001111001011011110111010100100001
+      
+      _('Thank you!' in binary 🤖)_
   "status: needs official review":
     action: comment
     delay: 5 minutes
     comment: |
       Hello!
 
-      It's me, the helpful Ranger bot 🤠🤖
+      It's me, the helpful Ranger bot 🤠
 
       I noticed that the label `status: needs official review` has been applied. This means that this request is currently waiting for a review from the @gatsbyjs/core team to review this proposal.
 
       As soon as a member of the team is able, they'll swoop in and help progress this further.
 
-      Just wanted to let you know; thank you! 💜
+      01010100011010000110000101101110011010110010000001111001011011110111010100100001
+      
+      _('Thank you!' in binary 🤖)_
   "status: needs response":
     action: close
     delay: 2 weeks
     comment: |
       Hello!
 
-      It's me, the helpful Ranger bot 🤠🤖
+      It's me, the helpful Ranger bot 🤠
 
       I noticed that the label `status: needs response` has been applied. This means that I'm currently waiting for something _from you_ to help @gatsbyjs/core progress this further.
 
       If the label `status: needs response` still exists after $DELAY, this will be automatically closed. However, you can always re-open and pick back up right where you left off!
 
-      Just wanted to let you know; thank you! 💜
+      01010100011010000110000101101110011010110010000001111001011011110111010100100001
+      
+      _('Thank you!' in binary 🤖)_
   "status: not substantive":
     action: close
     delay: 15 minutes
@@ -45,7 +61,7 @@ labels:
 
       Thanks again, and we look forward to seeing more PRs from you in the future! 💪💜
 
-      _Note: if the label `status: not substantive` is not removed within $DELAY this issue will be closed by me, your helpful Ranger bot 🤠🤖._
+      _Note: if the label `status: not substantive` is not removed within $DELAY this issue will be closed by me, your helpful Ranger bot 🤠._
 
       [open-issues]: https://github.com/gatsbyjs/gatsby/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
       [twitter]: https://twitter.com/schaudustin
@@ -58,7 +74,7 @@ labels:
 
       Sorry to hear that you're running into an issue. To help us best begin debugging the underlying cause, it is incredibly helpful if you're able to [create a minimal reproduction](https://gatsby.dev/reproduction). This is a simplified example of the issue that makes it clear and obvious what the issue is and how we can begin to debug it.
 
-      _Note: if a reproduction has not been supplied in $DELAY, this issue will be closed by me, your helpful Ranger bot 🤠🤖._
+      _Note: if a reproduction has not been supplied in $DELAY, this issue will be closed by me, your helpful Ranger bot 🤠._
 
       Once you've supplied a reproduction remove the `status: needs reproduction` label, and this issue will remain open and we can take a closer look!
 
@@ -71,6 +87,8 @@ comments:
       - "bot: duplicate"
 
 commits:
+  # when any commit contains the text "merge when passing"
+  # the label "bot: merge when passing" will be applied
   - action: label
     pattern: /merge when passing/i
     labels: 
