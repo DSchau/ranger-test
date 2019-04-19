@@ -5,10 +5,62 @@ labels:
   "bot: duplicate":
     action: close
     delay: 15 minutes
-  "test":
+  "status: needs official review":
+    action: comment
+    delay: 2 minutes
+    comment: |
+      Hello!
+
+      It's me, the friendly Ranger bot 🤠🤖
+
+      I noticed that the label `status: needs official review` has been applied. This means that we're currently waiting for a review from the @gatsbyjs/core team to review this proposal, and help you progress it further.
+
+      Just wanted to let you know; thank you! 💜
+  "status: needs response":
     action: close
-    delay: 30 seconds
-    comment: "test asdf"
+    delay: 2 minutes
+    comment: |
+      Hello!
+
+      It's me, the friendly Ranger bot 🤠🤖
+
+      I noticed that the label `status: needs response` has been applied. This means that I'm currently waiting for something _from you_ to help @gatsbyjs/core progress this further.
+
+      If the label `status: needs response` still exists after two weeks, this will be automatically closed. However, you can always re-open and pick back up right where you left off!
+
+      Just wanted to let you know; thank you! 💜
+  "status: not substantive":
+    action: close
+    delay: 1 minute
+    comment: |
+      Hey! Thanks so much for opening this pull request!
+
+      The change you’ve proposed is not going to be accepted because this change doesn't meaningfully improve docs, fix a bug, or otherwise improve functionality.
+
+      We absolutely want to have you as a contributor, so please take a look at our [open issues][open-issues] for ideas, and please reach out to us on [Twitter at @gatsbyjs][twitter] if you have any questions.
+
+      We offer [pair programming sessions][pairing] if you’d like to work with one of our maintainers to make another contribution.
+
+      Thanks again, and we look forward to seeing more PRs from you in the future! 💪💜
+
+      _Note: if the label `status: not substantive` is not removed within 15 minutes this issue will be closed by me, your friendly Ranger bot 🤠🤖._
+
+      [open-issues]: https://github.com/gatsbyjs/gatsby/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+      [twitter]: https://twitter.com/schaudustin
+      [pairing]: https://gatsby.dev/pairing
+  "status: needs reproduction":
+    action: close
+    delay: 1 minute
+    comment: |
+      Hello!
+
+      Sorry to hear that you're running into an issue. To help us best begin debugging the underlying cause, it is incredibly helpful if you're able to [create a minimal reproduction](https://gatsby.dev/reproduction). This is a simplified example of the issue that makes it clear and obvious what the issue is and how we can begin to debug it.
+
+      _Note: if a reproduction has not been supplied in 1 week (7 days), this issue will be closed by me, your friendly Ranger bot 🤠🤖._
+
+      Once you've supplied a reproduction remove the `status: needs reproduction` label, and this issue will remain open and we can take a closer look!
+
+      Thanks for using Gatsby! 💜
 
 comments:
   - action: label
