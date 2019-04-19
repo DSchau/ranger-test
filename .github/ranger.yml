@@ -8,7 +8,7 @@ labels:
     action: merge
     delay: 1 minute
     comment: |
-      Woo hoo! All tests are passing and I see the label `bot: merge when passing`, so I'll take the liberty of getting this merged and deleting the branch.
+      Woo hoo! All tests are passing and I see the label `bot: merge when passing`, so I'll take the liberty of getting this merged and deleting the branch in $DELAY.
 
       Thank you very much and hope to see you around these parts again soon 🤠🤖
   "status: needs official review":
