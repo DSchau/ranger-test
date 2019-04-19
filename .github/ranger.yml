@@ -8,14 +8,14 @@ labels:
   "status: needs reproduction":
     action: close
     delay: 7 days
-    comment: >
+    comment: >-
       Hello!
 
       Sorry to hear that you're running into an issue. To help us best begin debugging the underlying cause, it is incredibly helpful if you're able to [create a minimal reproduction](https://gatsby.dev/reproduction). This is a simplified example of the issue that makes it clear and obvious what the issue is and how we can begin to debug it.
 
-      _Note: if a reproduction has not been supplied in 7 days, this issue will be closed by me: Ranger bot 🤖._
+      _Note: if a reproduction has not been supplied in 7 days, this issue will be closed by me, Ranger bot 🤠🤖._
 
-      Once you've supplied a reproduction remove the `status: needs reproduction` label, and this issue will remain open!
+      Once you've supplied a reproduction remove the `status: needs reproduction` label, and this issue will remain open and we can take a closer look!
 
       Thanks for using Gatsby! 💜
 comments:
