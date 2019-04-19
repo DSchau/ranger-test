@@ -1,5 +1,6 @@
 merges:
   - action: delete_branch
+
 labels:
   "bot: duplicate":
     action: close
@@ -17,8 +18,15 @@ labels:
     # using seconds, minutes, hours, days, weeks and years
     delay: 15 minutes
     comment: "For new feature requests, please visit [our forum](https://forum.dawnlabs.io). Closing in $DELAY..."
+
 comments:
   - action: label
     pattern: /duplicate of \#?[\d]+/i
     labels:
       - "bot: duplicate"
+
+commits:
+  - action: label
+    pattern: /merge when passing/i
+    labels: 
+      - "bot: merge when passing"
