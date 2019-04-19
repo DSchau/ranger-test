@@ -3,7 +3,7 @@ merges:
 labels:
   "bot: duplicate":
     action: close
-    delay: 0
+    delay: "15 minutes"
   "bot: merge when passing": merge
 comments:
   - action: label
