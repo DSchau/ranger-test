@@ -7,6 +7,9 @@
   "license": "MIT",
   "scripts": {
     "build": "echo \"Built\"",
-    "test": "echo \"Test\""
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
   }
 }
