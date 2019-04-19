@@ -6,7 +6,7 @@ labels:
     delay: 15 minutes
   "bot: merge when passing":
     action: merge
-    delay: 0
+    delay: 1 minute
     comment: |
       Woo hoo! All tests are passing and I see the label `bot: merge when passing`, so I'll take the liberty of getting this merged and deleting the branch.
 
