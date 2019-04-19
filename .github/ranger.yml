@@ -5,17 +5,6 @@ labels:
   "bot: duplicate":
     action: close
     delay: 15 minutes
-  "bot: merge when passing":
-    action: merge
-    delay: 1 minute
-    comment: |
-      Woo hoo! All tests are passing and I see the label `bot: merge when passing`, so I'll take the liberty of getting this merged and deleting the branch in $DELAY.
-
-      Thank you very much and hope to see you around these parts again soon 🤠🤖
-  "status: needs official review":
-    action: close
-    delay: 30 seconds
-    comment: "For new feature requests, please visit [our forum](https://forum.dawnlabs.io). Closing in $DELAY..."
 
 comments:
   - action: label
