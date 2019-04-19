@@ -7,7 +7,7 @@ labels:
   "bot: merge when passing": merge
   "status: needs official review":
     action: comment
-    delay: 2 weeks
+    delay: 2 minutes
     comment: >
       Hello!
 
@@ -18,7 +18,7 @@ labels:
       Just wanted to let you know; thank you! 💜
   "status: needs response":
     action: close
-    delay: 2 weeks
+    delay: 2 minutes
     comment: >
       Hello!
 
@@ -31,7 +31,7 @@ labels:
       Just wanted to let you know; thank you! 💜
   "status: not substantive":
     action: close
-    delay: 15 minutes
+    delay: 1 minute
     comment: >
       Hey! Thanks so much for opening this pull request!
 
@@ -50,7 +50,7 @@ labels:
       [pairing]: https://gatsby.dev/pairing
   "status: needs reproduction":
     action: close
-    delay: 1 week
+    delay: 1 minute
     comment: >
       Hello!
 
