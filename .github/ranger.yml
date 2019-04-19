@@ -8,19 +8,18 @@ labels:
   "status: needs reproduction":
     action: close
     delay: 1 minute
-    comment: """
-Hello!
+    comment: >-
+      Hello!
 
-Sorry to hear that you're running into an issue. To help us best begin debugging the underlying cause, it is incredibly helpful if you're able to create a minimal reproduction. This is a simplified example of the issue that makes it clear and obvious what the issue is and how we can begin to debug it.
+      Sorry to hear that you're running into an issue. To help us best begin debugging the underlying cause, it is incredibly helpful if you're able to create a minimal reproduction. This is a simplified example of the issue that makes it clear and obvious what the issue is and how we can begin to debug it.
 
-If you're up for it, we'd very much appreciate if you could provide a [minimal reproduction](https://gatsby.dev/reproduction) and we'll be able to take another look.
+      If you're up for it, we'd very much appreciate if you could provide a [minimal reproduction](https://gatsby.dev/reproduction) and we'll be able to take another look.
 
-Note: if a reproduction has not been supplied in 7 days, this issue will be closed by your friendly Ranger bot 🤖.
+      Note: if a reproduction has not been supplied in 7 days, this issue will be closed by your friendly Ranger bot 🤖.
 
-Once you've supplied a reproduction remove the `status: needs reproduction` label, and this issue will remain open!
+      Once you've supplied a reproduction remove the `status: needs reproduction` label, and this issue will remain open!
 
-Thanks for using Gatsby! 💜
-    """
+      Thanks for using Gatsby! 💜
 comments:
   - action: label
     # either a string or a string representation of a regular expresssion
