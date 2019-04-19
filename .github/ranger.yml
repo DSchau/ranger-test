@@ -5,6 +5,10 @@ labels:
   "bot: duplicate":
     action: close
     delay: 15 minutes
+  "test":
+    action: close
+    delay: 30 seconds
+    comment: "test asdf"
 
 comments:
   - action: label
